@@ -1,0 +1,153 @@
+.body{
+    color: #0c1c6b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    
+    background-color:#ddd;
+    border-radius: 45%;
+    border: #0c1c6b;
+    padding:4% 5% 4% 5%;
+    width:80%;
+    margin-left: 5%;
+}
+img{
+    border-radius: 40%;
+    border: #0c1c6b;
+    border-style:dashed;
+    scale: 50%;
+    margin-top:-30%;
+    margin-bottom:-30%;
+    border: 0ch;
+}
+.body img{
+    border-radius: 40%;
+    border: #0c1c6b;
+    border-style:dashed;
+    scale: 10%;
+    margin-top:-50%;
+    margin-bottom:-50%;
+    border: 0ch;
+}
+.edu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    font-weight: 550;
+    padding-left:2%;
+    padding-right: 2%;
+}
+.inner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.edu img{
+    padding: 5%;
+}
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin-bottom: 5%;
+}
+.connect  a img{
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+} 
+.coninner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:2%;
+    padding-right: 2%;
+}
+.coninner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.coninner img{
+
+    background-color: #ddd;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+} 
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.proin{
+   
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5%;
+    margin: 2%;
+}
+.CON{
+    border-radius: 5%;
+    color:#ddd ;
+    background-color: #07103e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3%;
+    height: 10%;
+}
+.connectouter{
+    display: flex;
+    justify-content: center;
+}
+.skill .body{
+    margin-top: -5%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    font-size:250%;
+    flex-wrap: wrap;
+}
+.tab{
+    background-color: rgb(36, 43, 48);
+    border-radius: 30%;
+}
+
+.skill .body div{
+    scale:  60%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: -10%;
+}
+.skill img{
+    background-color: rgb(216, 231, 243);
+    padding: 10%;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    scale: 40%;
+    color: rgb(57, 57, 122);
+    margin: -10%;
+}
